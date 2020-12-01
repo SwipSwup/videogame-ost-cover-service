@@ -1,13 +1,16 @@
 <?php
+
+
 class ost
 {
-    private string $id;
+    private int $id;
+    private array $tracks;
+
     private string $ostName;
     private string $videoGameName;
-    private $releaseYear;
-    private $tracks;
+    private string $releaseYear;
 
-    public function __construct($id, $ostName, $videoGameName, $releaseYear, $tracks)
+    public function __construct(int $id, string $ostName, string $videoGameName, string $releaseYear, array $tracks)
     {
         $this->id = $id;
         $this->ostName = $ostName;
