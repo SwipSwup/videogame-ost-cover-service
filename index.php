@@ -11,10 +11,7 @@
 
 <div class="content">
     <?php
-    require_once "php/Vimeo.php";
-    require_once "php/Youtube.php";
-    require_once "php/LocalVideo.php";
-
+    //require_once
 
     ?>
 </div>
