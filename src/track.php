@@ -1,7 +1,7 @@
 <?php
 
 
-class track
+class track implements JsonSerializable
 {
     private int $id;
     private int $length;
@@ -17,5 +17,16 @@ class track
         $this->length = $length;
         $this->trackName = $trackName;
         $this->artist = $artist;
+    }
+
+    public function jsonSerialize()
+    {
+        return [
+            "id" => $this->id,
+            "length" => $this->length,
+            "trackNumber" => $this->trackNumber,
+            "trackName" => $this->trackName,
+            "artist" => $this->artist
+        ];
     }
 }

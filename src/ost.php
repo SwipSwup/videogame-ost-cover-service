@@ -1,7 +1,7 @@
 <?php
 
 
-class ost
+class ost implements JsonSerializable
 {
     private int $id;
     private array $tracks;
@@ -17,5 +17,21 @@ class ost
         $this->videoGameName = $videoGameName;
         $this->releaseYear = $releaseYear;
         $this->tracks = $tracks;
+    }
+
+    public function jsonSerialize()
+    {
+        $tracks = '';
+        foreach ($this->tracks as $track) {
+            $tracks.=json_encode($track);
+        }
+
+        return [
+            "id" => $this->id,
+            "ostName" => $this->ostName,
+            "videoGameName" => $this->videoGameName,
+            "releaseYear" => $this->releaseYear,
+            "tracks" => $tracks
+        ];
     }
 }
