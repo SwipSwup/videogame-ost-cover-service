@@ -21,17 +21,12 @@ class ost implements JsonSerializable
 
     public function jsonSerialize()
     {
-        $tracks = '';
-        foreach ($this->tracks as $track) {
-            $tracks.=json_encode($track);
-        }
-
         return [
             "id" => $this->id,
             "ostName" => $this->ostName,
             "videoGameName" => $this->videoGameName,
             "releaseYear" => $this->releaseYear,
-            "tracks" => $tracks
+            "tracks" => $this->tracks
         ];
     }
 }
