@@ -1,7 +1,7 @@
 <?php
 
 
-class track implements JsonSerializable
+class Track implements JsonSerializable
 {
     private int $id;
     private int $length;

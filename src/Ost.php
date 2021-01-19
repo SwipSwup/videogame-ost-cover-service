@@ -1,7 +1,7 @@
 <?php
 
 
-class ost implements JsonSerializable
+class Ost implements JsonSerializable
 {
     private int $id;
     private array $tracks;

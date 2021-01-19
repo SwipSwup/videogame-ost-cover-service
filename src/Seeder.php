@@ -2,36 +2,36 @@
 include_once "ost.php";
 include_once "track.php";
 
-class seeder
+class Seeder
 {
     public static function createOsts(): array
     {
         return [
-            new ost(
+            new Ost(
                 1,
                 "Boneworks_OST",
                 "Boneworks",
                 "2019",
                 [
-                    new track(
+                    new Track(
                         1,
                         "Bone Theme",
                         "Michael Wyckoff",
                         288
                     ),
-                    new track(
+                    new Track(
                         2,
                         "Bone Rhapsody",
                         "Michael Wyckoff",
                         128
                     ),
-                    new track(
+                    new Track(
                         3,
                         "Existence",
                         "Michael Wyckoff",
                         267
                     ),
-                    new track(
+                    new Track(
                         4,
                         "Who am I",
                         "Michael Wyckoff",
@@ -39,31 +39,31 @@ class seeder
                     ),
                 ]
             ),
-            new ost(
+            new Ost(
                 2,
                 "Spider-Man_Miles_Morales_OST",
                 "Marvel's Spider-Man: Miles Morales",
                 "2020",
                 [
-                    new track(
+                    new Track(
                         1,
                         "Don't Give Up",
                         "John Paesano",
                         284
                     ),
-                    new track(
+                    new Track(
                         2,
                         "Rhino Rampage",
                         "John Paesano",
                         279
                     ),
-                    new track(
+                    new Track(
                         3,
                         "New York's Only Spider-Man",
                         "John Paesano",
                         207
                     ),
-                    new track(
+                    new Track(
                         4,
                         "Spider-Training",
                         "John Paesano",
@@ -71,31 +71,31 @@ class seeder
                     )
                 ]
             ),
-            new ost(
+            new Ost(
                 3,
                 "Titanfall_2_OST",
                 "Titanfall 2",
                 "2016",
                 [
-                    new track(
+                    new Track(
                         1,
                         "BT-7274",
                         "Stephen Barton",
                         337
                     ),
-                    new track(
+                    new Track(
                         2,
                         "Rifleman Cooper",
                         "Stephen Barton",
                         159
                     ),
-                    new track(
+                    new Track(
                         3,
                         "Apex Predators",
                         "Stephen Barton",
                         345
                     ),
-                    new track(
+                    new Track(
                         4,
                         "Link to Pilot",
                         "Stephen Barton",
