@@ -1,6 +1,6 @@
 <?php
-include_once "ost.php";
-include_once "track.php";
+include_once "Ost.php";
+include_once "Track.php";
 
 class Seeder
 {

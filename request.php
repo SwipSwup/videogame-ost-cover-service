@@ -1,7 +1,9 @@
 <?php
-require_once "src/seeder.php";
+require_once "src/Seeder.php";
 
 header('Content-Type: application/json');
+
+echo 'hier: ' . $_GET['request'];
 
 if(isset($_GET['request'])) {
     $seeder = new Seeder();
@@ -12,7 +14,7 @@ if(isset($_GET['request'])) {
     }
     else {
         $id = intval($_GET['request']);
-        if($id!=0) {
+        if($id!=0 && sizeof($osts)>=$id) {
             $ost = $osts[$id-1];
             echo json_encode($ost);
         }

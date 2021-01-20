@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^all$ request.php [NC]
+RewriteRule ^([A-Za-z0-9]+)/(all) request.php?request=all [QSA]
+RewriteRule ^id/(\d+)$ request.php?request=$1 [QSA]
+
+#RewriteRule "^/?(.*)"        "^$1" [L,R,NE]
+
+#RewriteCond "%{HTTP_HOST}"   "!^www\.example\.com" [NC]
+#RewriteCond "%{HTTP_HOST}"   "!^$"
+#RewriteRule "^/?(.*)"        "http://www.example.com/$1" [L,R,NE]
