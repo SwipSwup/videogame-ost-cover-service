@@ -1,11 +1,10 @@
 <?php
-if(isset($_GET['request'])) {
+if (isset($_GET['request'])) {
     $request = $_GET['request'];
 
-    if($request === 'all') {
+    if ($request === 'all') {
         header("Location: ./osts");
-    }
-    else {
+    } else {
         header("Location: ./ost/$request");
     }
 }
