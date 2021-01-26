@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>OST for free</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>videogame-ost-cover-service</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
-
-<div class="content">
-    <?php
-    //require_once
-
-    ?>
+<div class="container">
+    <div class="cover">
+        <div class="transparent">
+            <h1>Suche OSTs</h1>
+            <ul>
+                <li>all: Liste aller OSTs</li>
+                <li>1-3: OST mit angegebener id</li>
+            </ul>
+            <form class="flex-form" method="get" action="src/HTTP/redirect.php">
+                <input type="text" name="request" placeholder="OST">
+                <button value="submit">Submit</button>
+            </form>
+        </div>
+    </div>
 </div>
-
 </body>
 </html>
-
