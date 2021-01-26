@@ -1,6 +1,5 @@
 <?php
 
-
 class Track implements JsonSerializable
 {
     private int $id;

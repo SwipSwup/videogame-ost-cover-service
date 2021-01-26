@@ -1,6 +1,5 @@
 <?php
 
-
 class Ost implements JsonSerializable
 {
     private int $id;
