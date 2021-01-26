@@ -24,8 +24,11 @@
       <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/request.php" beforeDir="false" afterPath="$PROJECT_DIR$/request.php" afterDir="false" />
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +78,15 @@
       <workItem from="1609435815832" duration="765000" />
       <workItem from="1609498800775" duration="208000" />
       <workItem from="1609504015686" duration="336000" />
+<<<<<<< Updated upstream
       <workItem from="1610717325526" duration="191000" />
       <workItem from="1611066974805" duration="2442000" />
       <workItem from="1611152487532" duration="4396000" />
       <workItem from="1611157387466" duration="8086000" />
+=======
+      <workItem from="1610455866336" duration="160000" />
+      <workItem from="1610953193550" duration="3000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="added request and jsonSerialize">
       <created>1609435974442</created>
