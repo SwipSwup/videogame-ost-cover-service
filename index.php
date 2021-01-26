@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>videogame-ost-cover-service</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -14,8 +14,8 @@
                 <li>all: Liste aller OSTs</li>
                 <li>1-3: OST mit angegebener id</li>
             </ul>
-            <form class="flex-form" method="get" action="src/HTTP/redirect.php">
-                <input type="text" name="request" placeholder="OST">
+            <form class="flex-form" method="get" action="redirect.php">
+                <input type="text" name="request" placeholder="ost id">
                 <button value="submit">Submit</button>
             </form>
         </div>
