@@ -1,5 +1,5 @@
 <?php
-require_once "src/class/Seeder.php";
+require_once "src/Seeder.php";
 
 header('Content-Type: application/json');
 
